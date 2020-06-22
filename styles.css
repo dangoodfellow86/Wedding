@@ -1,35 +1,54 @@
 
 
+
+
+
 .body{
-    background-color: bisque;
-    background-size: 100%;
+    
+    background-color: #7a6633;
+    background-image: url(http://www.transparenttextures.com/patterns/buried.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    
     margin: 0;
-    width: 100%;
-    height: 100%;
+    
     
 }
 
-.navbar {
+.navbara {
     padding: 10px;
-    /* box-shadow: 1px 1px 20px grey; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     font-family: 'Kaushan Script',
     cursive;
+    text-decoration: none;
+    background-color: #554723;
+    background-image: url(http://www.transparenttextures.com/patterns/buried.png);
+    
 }
 .text {
+    
     padding: 10px;
-    margin-top: 5%;
+    margin: 5%;
+    line-height: 1.5;
     text-align: center;
     font-family: 'Kaushan Script',
     cursive;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: whitesmoke;
+    background-color: #554723;
+    background-image: url(http://www.transparenttextures.com/patterns/buried.png);
+   
+    
+    
+    
     
 
 }
-.fontsize {
+/* .fontsize {
     font-size: 66px;
-}
+} */
 
 .img{
     height: 40%;
@@ -47,9 +66,52 @@
     padding: 0 20px;
 }
 
+.nav-link{
+    color: black;
+    
+}
+.navbar-toggler-icon{
+    color: black;
+    z-index: auto;
+}
 
+.invites{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.location{
+    font-size: 2.0rem;
+}
+.us{
+
+border-radius: 100% ;
+border:5px solid white;   
+    
+}
+.save{
+    font-size: 2.5rem;
+}
+.date{
+    font-size: 3.5rem;
+}
+.flowers{
+    float: right;
+    margin: 0;
+}
 
 @media (max-width:480px) {
-    .fontsize{font-size:33px;}
-    .img{height: 20%;width: 70%; }
-}
+    .save {
+        font-size: 1.5rem;
+    }
+
+    .date {
+        font-size: 1.5rem;
+    }
+    .location {
+        font-size: 1.0rem;
+    }
+    .flowers {
+        float: right;
+        margin: 0;
+    }
+} 
