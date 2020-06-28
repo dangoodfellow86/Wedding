@@ -102,8 +102,6 @@ border:5px solid white;
 
 .countd{
     display: inline-block;
-    width: 80px;
-    height: 80px;
     margin: 0 20px 30px;
     font-size: 2.0rem;
     
@@ -123,8 +121,14 @@ border:5px solid white;
     .location {
         font-size: 1.0rem;
     }
+    .countd{
+        font-size: 1.0rem;
+    }
     .flowers {
         float: right;
         margin: 0;
+    }
+    .invites{
+        font-size: 0.8rem;
     }
 } 
