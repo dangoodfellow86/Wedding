@@ -99,6 +99,19 @@ border:5px solid white;
     margin: 0;
 }
 
+
+.countd{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 0 20px 30px;
+    font-size: 2.0rem;
+    
+}
+.countd span{
+    display: block;
+}
+
 @media (max-width:480px) {
     .save {
         font-size: 1.5rem;
