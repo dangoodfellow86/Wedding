@@ -83,9 +83,9 @@
     font-size: 2.0rem;
 }
 .us{
-
+border:5px solid white;
 border-radius: 100% ;
-border:5px solid white;   
+   
     
 }
 .save{
@@ -106,29 +106,46 @@ border:5px solid white;
     font-size: 2.0rem;
     
 }
+.togo{
+    font-size: 2.0rem;
+}
 .countd span{
     display: block;
 }
 
-@media (max-width:480px) {
+@media (max-width:670px) {
     .save {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .date {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .location {
-        font-size: 1.0rem;
+        font-size: 2rem;
     }
     .countd{
-        font-size: 1.0rem;
+        font-size: 2rem;
     }
     .flowers {
         float: right;
         margin: 0;
+        width: 100%;
     }
     .invites{
         font-size: 0.8rem;
+    }
+    .hours{
+        display:none;
+    }
+    .mins {
+        display: none;
+    }
+
+    .seconds {
+        display: none;
+    }
+    .togo{
+        font-size: 1.5rem;
     }
 } 
